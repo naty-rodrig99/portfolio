@@ -1,4 +1,5 @@
 import "../homeStyle.css"
+import {Button} from "@nextui-org/react";
 
 export function HomeView(props){
     return (
@@ -19,6 +20,10 @@ export function HomeView(props){
                     <button className="projects_button">Projects</button>
                     <button className="contact_button">Contact</button>
                 </div>
+            </div>
+            <div className="vertical_line_container">
+                <hr className="secondary_line"></hr>
+
             </div>
         </body>
     </html>
