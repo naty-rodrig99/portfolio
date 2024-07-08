@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Linden+Hill&display=swap');
+
+.hi_title{
+    color: #6F6B6B;
+    font-family: 'Libre Franklin', serif;
+    font-size: 2vw; 
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5%;
+}
+
+.name_title{
+    color: #000000;
+    font-family: 'Liden Hill', serif;
+    font-size: 5vw; 
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 5%;
+}
+
+.main_description{
+    color: #000000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 2vw; 
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 5%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+}
+
+.main_line{
+    width: 100%; /* Adjusted width for better fit */
+    height: 1vx;
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+}
+
+.projects_button{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: #D39E45;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.3vw; 
+    position: relative; /* Relative positioning for stacking order */
+    z-index: 1; /* Ensure the button appears above the line */
+    margin-left: 5.5vw;
+}
+
+.buttons_container{
+    display: flex; /* Use flexbox to arrange buttons horizontally */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.contact_button{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: #D47751;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.3vw; 
+    position: relative; /* Relative positioning for stacking order */
+    z-index: 1; /* Ensure the button appears above the line */
+    margin-left: 2vw;
+}
